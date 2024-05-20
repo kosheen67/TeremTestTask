@@ -1,4 +1,4 @@
-alert("Привет, мир");
+/*alert("Привет, мир");*/
 
 let block = document.querySelector('.block1');
 let button = document.getElementById('yellow-button');
@@ -12,3 +12,14 @@ button.addEventListener("click", function () {
 })
 
 
+let button2 = document.getElementById('green-button');
+
+let block2 = document.querySelector('.block2-orange');
+let block3 = document.querySelector('.block2-brown');
+
+let container = document.querySelector('.block2');
+
+button2.addEventListener("click", function () {
+    container.insertBefore(block3, block2);
+
+});
