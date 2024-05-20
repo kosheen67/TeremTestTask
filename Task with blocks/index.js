@@ -1,4 +1,4 @@
-/*alert("Привет, мир");*/
+alert("Привет, мир");
 
 let block = document.querySelector('.block1');
 let button = document.getElementById('yellow-button');
