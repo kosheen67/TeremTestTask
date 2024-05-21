@@ -48,7 +48,6 @@ h1 {
 .block3-little {
     width: 33%;
     height: 400px;
-    background-color: antiquewhite;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -58,7 +57,6 @@ h1 {
 .block3-big {
     width: 66%;
     height: 400px;
-    background-color: beige;
     display: flex;
     justify-content: center;
     align-items: flex-end;
